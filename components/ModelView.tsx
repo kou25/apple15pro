@@ -4,8 +4,9 @@ import { PerspectiveCamera, View, OrbitControls } from "@react-three/drei";
 import React, { Suspense } from "react";
 import * as THREE from "three";
 import Loader from "./Loader";
-import IPhone from "./IPhone";
+
 import Lights from "./Lights";
+import IPhone from "./Iphone";
 
 export interface ModelData {
   title: string;

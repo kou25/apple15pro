@@ -9,10 +9,7 @@ import { View } from "@react-three/drei";
 import { models, sizes } from "@/utils/data";
 import dynamic from "next/dynamic";
 import { animateWithGsapTimeline } from "@/utils/animations";
-
-const ModelView = dynamic(() => import("./ModelView"), {
-  ssr: false
-});
+import ModelView from "./ModelView";
 
 const Model = () => {
   const [size, setSize] = useState("small");
